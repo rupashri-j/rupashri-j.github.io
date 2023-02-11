@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <script src="./script.js"></script>
+
+  <div class="navbar">
+    <!-- <a href="#home">Home</a> -->
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact Me</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- <div id="home" class="header">
+  <h2>Welcome to my Home Page</h2>
+  <p>This is a sample text for the home page.</p>
+</div> -->
+
+
+
+  <div id="about" class="about">
+    <div class="banner">
+      <div class="banner-left">
+        <img src="./asset/avatar.png" alt="Banner Image">
+      </div>
+      <div class="banner-right">
+        <h2>Hi! I am a MEAN Stack Developer.</h2>
+        <p>
+          I have a passion for creating user-friendly, responsive web applications that deliver a seamless user
+          experience. My expertise includes HTML, CSS, JavaScript, Angular, Node.js, and MongoDB.
+          I utilize these technologies to create applications that are both fast and efficient. I work closely with
+          designers, project managers, and other developers to ensure that projects are completed on time and to a high
+          standard.
+
+          <a href="./asset/Rupashri_MEAN_3.5yrs.pdf" target="_blank" download>
+            <button class="resume-btn">
+              <i class="fa fa-download"></i>
+              Download Resume
+            </button>
+          </a>
+
+
+
+        </p>
+        <!-- I am comfortable with the latest development tools and methodologies, and I can quickly pick up new technologies and integrate them into my workflow.
+        My expertise in JavaScript and the ability to work with multiple libraries and frameworks makes me an adaptable and versatile developer, 
+        capable of tackling any project that comes my way. I am committed to writing clean, maintainable code and understand the importance of security in web applications. 
+        I work closely with designers, project managers, and other developers to ensure that projects are completed on time and to a high standard. -->
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <p>Here are some of my recent projects:</p>
+    <section class="card-section">
+      <div class="card">
+        <img src="asset/chatbot.webp" alt="Header Image 1">
+        <h3>Card 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor risus vitae lectus tristique, ac
+          scelerisque massa luctus.</p>
+      </div>
+      <div class="card">
+        <img src="./asset/index.jpg" alt="Header Image 2">
+        <h3>Card 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor risus vitae lectus tristique, ac
+          scelerisque massa luctus.</p>
+      </div>
+      <div class="card">
+        <img src="./asset/nft.jpg" alt="Header Image 3">
+        <h3>Card 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor risus vitae lectus tristique, ac
+          scelerisque massa luctus.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <div id="contact" class="contact">
+    <div class="banner">
+      <div class="banner-left">
+        <img src="./asset/email.jpg" alt="Banner Image">
+      </div>
+      <div class="banner-right">
+        <!-- <h2>Contact Me</h2> -->
+        <section class="form-section">
+          <form id="contact-form" class="contact-form">
+    
+            <div class="form-group">
+              <i class="fas fa-envelope-open-text"></i>
+              <input type="email" id="email" placeholder="Enter your email">
+            </div>
+    
+            <div class="form-group">
+              <i class="fas fa-comment-dots"></i>
+              <textarea id="message" placeholder="Enter your message"></textarea>
+            </div>
+    
+            <button class="contact-button" type="submit">Submit</button>
+          </form>
+    
+    
+        </section>
+      </div>
+    </div>
+
+    
+    
+
+
+    <!-- <form action="/action_page.php">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email..">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+      <input type="submit" value="Submit">
+    </form> -->
+  </div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- <body>
+    <header>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <p>I am a front-end developer with experience in the MEAN stack. I have a passion for creating user-friendly, responsive web applications that deliver a seamless user experience. My expertise includes HTML, CSS, JavaScript, Angular, Node.js, and MongoDB.</p>
+      </section>
+      <section id="projects">
+        <h1>My Projects</h1>
+        <div class="project">
+          <h2>Project 1</h2>
+          <p>A brief description of Project 1 goes here.</p>
+        </div>
+        <div class="project">
+          <h2>Project 2</h2>
+          <p>A brief description of Project 2 goes here.</p>
+        </div>
+        <div class="project">
+          <h2>Project 3</h2>
+          <p>A brief description of Project 3 goes here.</p>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Get in Touch</h1>
+        <form>
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your email">
+          <textarea placeholder="Your message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 My Portfolio</p>
+    </footer>
+  </body> -->
+
+</html>
